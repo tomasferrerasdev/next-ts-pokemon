@@ -20,6 +20,7 @@ export const NoFavorites = () => {
         css={{
           paddingTop: "3rem",
         }}
+        alt="no favorites image"
       />
     </Container>
   );
