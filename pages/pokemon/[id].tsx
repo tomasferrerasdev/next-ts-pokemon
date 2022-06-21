@@ -1,6 +1,14 @@
 import { useEffect, useState } from "react";
 import { GetStaticProps, NextPage, GetStaticPaths } from "next";
-import { Grid, Card, Text, Button, Container, Image } from "@nextui-org/react";
+import {
+  Grid,
+  Card,
+  Text,
+  Button,
+  Container,
+  Image,
+  Row,
+} from "@nextui-org/react";
 import confetti from "canvas-confetti";
 
 import { pokeAPI } from "../../api";
@@ -61,17 +69,19 @@ const PokemonPage: NextPage<Props> = ({ pokemon }) => {
             <Card.Header
               css={{ display: "flex", justifyContent: "space-between" }}
             >
-              <Text h1 transform="capitalize">
-                {pokemon.name}
-              </Text>
-              <Button
-                size="sm"
-                color="gradient"
-                ghost={!isInFavorites}
-                onClick={onToggleFavorite}
-              >
-                {isInFavorites ? "Favorite" : "Add to favorite"}
-              </Button>
+              <Row wrap="wrap" justify="space-between" align="center">
+                <Text h1 transform="capitalize">
+                  {pokemon.name}
+                </Text>
+                <Button
+                  size="sm"
+                  color="gradient"
+                  ghost={!isInFavorites}
+                  onClick={onToggleFavorite}
+                >
+                  {isInFavorites ? "Favorite" : "Add to favorite"}
+                </Button>
+              </Row>
             </Card.Header>
             <Card.Body>
               <Text size={30}>Sprites:</Text>
