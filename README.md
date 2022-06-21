@@ -1,3 +1,7 @@
+## Pokemon website using NextJS, Next UI and TypeScript.
+This is a simple website that allows users to acces pokemon's data using Static generation with and without data bringing all the information from PokeAPI.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
