@@ -1,6 +1,8 @@
 ## Pokemon website using NextJS, Next UI and TypeScript. 🦊🦌🐸🐉🦦🐿️
 This is a simple website that allows users to acces pokemon's data using Static generation with and without data bringing all the information from PokeAPI (https://pokeapi.co/).
 
+(SSR, SSG, ISG)
+
 ![pokemon_detail](https://user-images.githubusercontent.com/107090584/174863335-225404cc-d258-4c5a-b260-991a9cc93f2c.png)
 ---------------------------------------
 ![home](https://user-images.githubusercontent.com/107090584/174864345-303e4498-3ae1-4ed6-940f-4cff3ef1d105.png)
